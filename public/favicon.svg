@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Algo Spellbook">
+  <rect width="64" height="64" rx="14" fill="#07111f"/>
+  <path d="M13 15c8-3 14-1 19 4v32c-5-5-11-7-19-4V15Zm38 0c-8-3-14-1-19 4v32c5-5 11-7 19-4V15Z" fill="none" stroke="#68e0b5" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="m25 27-6 5 6 5m14-10 6 5-6 5m-3-14-8 18" fill="none" stroke="#f2c66d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

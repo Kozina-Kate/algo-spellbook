@@ -1,0 +1,30 @@
+{
+  "name": "Algo Spellbook — алгоритмы на JavaScript",
+  "short_name": "Algo Spellbook",
+  "description": "Пошаговый курс по алгоритмам и структурам данных на JavaScript.",
+  "lang": "ru",
+  "start_url": "/algo-spellbook/",
+  "scope": "/algo-spellbook/",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "categories": ["education", "developer tools"],
+  "icons": [
+    {
+      "src": "/algo-spellbook/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/algo-spellbook/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/algo-spellbook/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

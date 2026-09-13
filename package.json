@@ -1,0 +1,50 @@
+{
+  "name": "algo-spellbook",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Пошаговый курс по алгоритмам и структурам данных на JavaScript",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "volta": {
+    "node": "22.23.2"
+  },
+  "scripts": {
+    "dev": "cross-env ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "start": "cross-env ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "build": "node scripts/clean-astro-cache.mjs && cross-env ASTRO_TELEMETRY_DISABLED=1 astro build && node scripts/build-sw.mjs --base=/algo-spellbook",
+    "build:mobile": "node scripts/clean-astro-cache.mjs && cross-env ASTRO_TELEMETRY_DISABLED=1 CAPACITOR=true astro build && node scripts/build-sw.mjs --base=/",
+    "preview": "cross-env ASTRO_TELEMETRY_DISABLED=1 astro preview",
+    "check": "node scripts/clean-astro-cache.mjs && cross-env ASTRO_TELEMETRY_DISABLED=1 astro check",
+    "check:links": "node scripts/check-links.mjs",
+    "mobile:add:android": "cap add android",
+    "mobile:add:ios": "cap add ios",
+    "mobile:sync": "npm run build:mobile && cap sync",
+    "mobile:open:android": "cap open android",
+    "mobile:open:ios": "cap open ios",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@capacitor/core": "8.5.2",
+    "@astrojs/starlight": "0.42.0",
+    "astro": "7.3.2",
+    "sharp": "0.35.4"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "@capacitor/android": "8.5.2",
+    "@capacitor/cli": "8.5.2",
+    "@capacitor/ios": "8.5.2",
+    "cross-env": "7.0.3",
+    "typescript": "5.9.3",
+    "workbox-build": "7.4.1"
+  },
+  "overrides": {
+    "uuid": "11.1.1"
+  },
+  "allowScripts": {
+    "esbuild": true
+  }
+}
