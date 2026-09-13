@@ -29,7 +29,7 @@ export default defineConfig({
 				{ tag: 'script', attrs: { src: `${base}/register-sw.js`.replace('//', '/'), defer: true } },
 			],
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/Kozina-Kate/algo-spellbook' }],
-			editLink: { baseUrl: 'https://github.com/Kozina-Kate/algo-spellbook/edit/main/' },
+			components: { Footer: './src/components/Footer.astro' },
 			sidebar: [
 				{
 					label: 'Старт',

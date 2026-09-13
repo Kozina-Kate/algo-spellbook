@@ -1,0 +1,28 @@
+---
+// Штатный подвал Starlight плюс постоянная сноска о лицензии:
+// материал распространяется под CC BY-NC-ND 4.0, и указание на это
+// должно быть на каждой странице, а не только в README.
+import Default from '@astrojs/starlight/components/Footer.astro';
+---
+
+<Default {...Astro.props} />
+
+<p class="license-notice">
+	© 2026 Kate Kozina. Материалы курса распространяются на условиях <a
+		href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ru"
+		rel="license noopener noreferrer"
+		target="_blank">CC BY-NC-ND 4.0</a
+	>: копирование без изменений со ссылкой на автора, без коммерческого использования и без переработки.
+</p>
+
+<style>
+	.license-notice {
+		margin-top: 1.5rem;
+		padding-top: 1rem;
+		border-top: 1px solid var(--sl-color-hairline);
+		font-size: var(--sl-text-xs);
+		line-height: 1.6;
+		color: var(--sl-color-gray-3);
+		text-wrap: pretty;
+	}
+</style>
