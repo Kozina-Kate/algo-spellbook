@@ -3,6 +3,9 @@ title: "Algo Spellbook"
 description: "Пошаговый курс по алгоритмам и структурам данных на JavaScript."
 sidebar:
   order: 0
+head:
+  - tag: title
+    content: "Algo Spellbook — курс по алгоритмам на JavaScript"
 ---
 
 **Прокачайте алгоритмическое мышление шаг за шагом.** Практический курс на JavaScript для тех, кто умеет писать код, но пока не решал алгоритмические задачи системно.
