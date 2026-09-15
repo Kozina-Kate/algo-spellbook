@@ -66,6 +66,7 @@ export default defineConfig({
 				{
 					label: 'Алгоритмическое мышление',
 					items: [
+						{ label: 'Как читать разборы', slug: 'kak-rabotat-s-algoritmicheskoy-glavoy' },
 						{ label: 'Сложность алгоритмов', slug: 'slozhnost-algoritmov' },
 						{ label: 'Структуры и стоимость операций', slug: 'struktury-dannyh-v-js' },
 					],

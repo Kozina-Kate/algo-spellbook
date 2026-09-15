@@ -187,6 +187,6 @@ console.log(presentNumbers.size);
 
 ## Дальше
 
-→ [Сложность алгоритмов](../slozhnost-algoritmov/)
+→ [Как работать с алгоритмической главой](../kak-rabotat-s-algoritmicheskoy-glavoy/)
 
 ← [Пишем простое решение](../most-03-prostoe-reshenie/)
