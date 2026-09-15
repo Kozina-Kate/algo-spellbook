@@ -36,6 +36,10 @@ npm run build:mobile
 PWA — в `astro.config.mjs`. Подготовка нативных проектов описана в
 [`MOBILE.md`](./MOBILE.md).
 
+Единый формат уроков и правила добавления новых материалов описаны в
+[`AUTHORING.md`](./AUTHORING.md). Структура базового курса проверяется командой
+`npm run check:lessons` и входит в общую проверку `npm run check`.
+
 ## Публикация
 
 Workflow `.github/workflows/deploy.yml` собирает и публикует сайт при каждом
