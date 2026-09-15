@@ -40,7 +40,18 @@ export default defineConfig({
 				},
 				{
 					label: 'JavaScript с нуля',
-					items: [{ label: 'О базовом маршруте', slug: 'javascript-s-nulya' }],
+					items: [
+						{ label: 'О базовом маршруте', slug: 'javascript-s-nulya' },
+						{ label: '1. Как работает программа', slug: 'js-01-kak-rabotaet-programma' },
+						{ label: '2. Переменные и типы', slug: 'js-02-peremennye-i-tipy' },
+						{ label: '3. Операторы и условия', slug: 'js-03-usloviya-i-operatory' },
+						{ label: '4. Циклы', slug: 'js-04-cikly' },
+						{ label: '5. Функции', slug: 'js-05-funkcii' },
+						{ label: '6. Массивы и строки', slug: 'js-06-massivy-i-stroki' },
+						{ label: '7. Объекты, Map и Set', slug: 'js-07-obekty-map-set' },
+						{ label: '8. Ошибки и тесты', slug: 'js-08-oshibki-i-otladka' },
+						{ label: '9. От условия к функции', slug: 'js-09-ot-usloviya-k-funkcii' },
+					],
 				},
 				{
 					label: 'Алгоритмическое мышление',
