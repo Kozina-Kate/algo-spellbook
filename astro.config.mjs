@@ -54,6 +54,16 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'От условия к коду',
+					items: [
+						{ label: 'О переходном блоке', slug: 'ot-usloviya-k-kodu' },
+						{ label: '1. Читаем условие', slug: 'most-01-chitaem-uslovie' },
+						{ label: '2. Решаем руками', slug: 'most-02-reshenie-slovami' },
+						{ label: '3. Пишем простой код', slug: 'most-03-prostoe-reshenie' },
+						{ label: '4. Проверяем и улучшаем', slug: 'most-04-proverka-i-uluchshenie' },
+					],
+				},
+				{
 					label: 'Алгоритмическое мышление',
 					items: [
 						{ label: 'Сложность алгоритмов', slug: 'slozhnost-algoritmov' },
