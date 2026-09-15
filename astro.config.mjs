@@ -35,12 +35,22 @@ export default defineConfig({
 					label: 'Старт',
 					items: [
 						{ label: 'О курсе', slug: 'index' },
-						{ label: 'Сложность алгоритмов', slug: 'slozhnost-algoritmov' },
-						{ label: 'Структуры данных в JS', slug: 'struktury-dannyh-v-js' },
+						{ label: 'Выберите маршрут', slug: 'nachat-obuchenie' },
 					],
 				},
 				{
-					label: 'Массивы и строки',
+					label: 'JavaScript с нуля',
+					items: [{ label: 'О базовом маршруте', slug: 'javascript-s-nulya' }],
+				},
+				{
+					label: 'Алгоритмическое мышление',
+					items: [
+						{ label: 'Сложность алгоритмов', slug: 'slozhnost-algoritmov' },
+						{ label: 'Структуры и стоимость операций', slug: 'struktury-dannyh-v-js' },
+					],
+				},
+				{
+					label: 'Техники для массивов и строк',
 					items: [
 						{ label: 'Хеш-таблицы', slug: 'hesh-tablicy' },
 						{ label: 'Два указателя', slug: 'dva-ukazatelja' },
@@ -69,7 +79,7 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Навык распознавания',
+					label: 'Распознавание паттернов',
 					items: [
 						{ label: 'Как распознать тип задачи', slug: 'kak-raspoznat-tip-zadachi' },
 						{ label: 'Тренажёр паттернов', slug: 'raspoznavanie-patterna-po-usloviju' },
