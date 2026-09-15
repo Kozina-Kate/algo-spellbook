@@ -180,6 +180,10 @@ if (number % 2 === 0) {
 - [ ] Я различаю присваивание `=` и сравнение `===`.
 - [ ] Я могу соединить две проверки операторами `&&` или `||`.
 
+:::tip[Быстро повторить]
+[Операторы](../spravochnik-javascript/#операторы) и [условия](../spravochnik-javascript/#условия) — основные записи и частые проверки.
+:::
+
 ## Источники
 
 - [Выражения и операторы — MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators)

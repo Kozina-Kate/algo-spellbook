@@ -191,6 +191,10 @@ function multiply(a, b) {
 - [ ] Я знаю, что код после выполненного `return` не запускается.
 - [ ] Я могу объяснить область видимости локальной переменной.
 
+:::tip[Быстро повторить]
+[Функции](../spravochnik-javascript/#функции) — параметры, аргументы, `return` и короткая стрелочная функция.
+:::
+
 ## Источники
 
 - [Функции JavaScript — MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)

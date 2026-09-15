@@ -207,6 +207,10 @@ function containsDuplicate(numbers) {
 - [ ] Я знаю основные методы `Set`.
 - [ ] Я могу выбрать структуру для порядка, подсчёта и уникальности.
 
+:::tip[Быстро повторить]
+[Объекты](../spravochnik-javascript/#объекты), [`Map`](../spravochnik-javascript/#map) и [`Set`](../spravochnik-javascript/#set) — синтаксис и стоимость основных операций.
+:::
+
 ## Источники
 
 - [Коллекции по ключам — MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Keyed_collections)

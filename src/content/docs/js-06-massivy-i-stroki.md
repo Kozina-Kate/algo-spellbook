@@ -199,6 +199,10 @@ function reverseString(text) {
 - [ ] Я могу пройти по массиву и построить новый результат.
 - [ ] Я умею преобразовать строку в массив символов и обратно.
 
+:::tip[Быстро повторить]
+[Массивы](../spravochnik-javascript/#массивы) и [строки](../spravochnik-javascript/#строки) — методы, возвращаемые значения, изменение исходных данных и стоимость операций.
+:::
+
 ## Источники
 
 - [Индексированные коллекции — MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections)

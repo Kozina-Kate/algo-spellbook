@@ -185,6 +185,10 @@ console.log(positiveSum); // 8
 - [ ] Я умею накопить сумму в переменной.
 - [ ] Я могу составить таблицу выполнения цикла.
 
+:::tip[Быстро повторить]
+[Циклы](../spravochnik-javascript/#циклы) — три шаблона обхода и разница между `break` и `continue`.
+:::
+
 ## Источники
 
 - [Циклы и итерации — MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)

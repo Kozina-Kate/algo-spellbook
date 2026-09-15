@@ -108,6 +108,10 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Справочник',
+					items: [{ label: 'JavaScript для алгоритмов', slug: 'spravochnik-javascript' }],
+				},
+				{
 					label: 'На телефоне',
 					items: [{ label: 'Установить приложение', slug: 'mobile' }],
 				},
